@@ -1,0 +1,116 @@
+QMainWindow, QDialog, QMessageBox {
+    background-color: #F3F4F6;
+}
+
+QLabel {
+    color: #000000;
+}
+
+QMenuBar {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-bottom: 1px solid #D1D5DB;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #E5E7EB;
+}
+
+QMenu {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #000000;
+}
+
+QMenu::item {
+    padding: 8px 25px;
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+}
+
+QTableWidget {
+    background-color: #FFFFFF;
+    color: #000000;
+    gridline-color: #E5E7EB;
+    border: 1px solid #D1D5DB;
+    outline: 0;
+}
+
+QHeaderView::section {
+    background-color: #E5E7EB;
+    color: #000000;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #D1D5DB;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    color: #000000;
+}
+
+QLineEdit, QTextEdit, QComboBox, QDateEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    padding: 5px;
+    color: #000000;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    color: #000000;
+    selection-background-color: #3B82F6;
+    selection-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+}
+
+QPushButton {
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 4px;
+    background-color: #E5E7EB;
+    color: #000000;
+    border: 1px solid #9CA3AF;
+}
+
+QPushButton:hover {
+    background-color: #D1D5DB;
+}
+
+#btnPrimary {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+#btnSecondary {
+    background-color: #4B5563;
+    color: #FFFFFF;
+    border: none;
+}
+
+#btnDanger {
+    background-color: #DC2626;
+    color: #FFFFFF;
+    border: none;
+}
+
+#headerFrame {
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #3B82F6;
+}
+
+#appTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
